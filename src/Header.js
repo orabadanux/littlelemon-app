@@ -1,7 +1,7 @@
 function Header(){
     return(
     <header>
-        <img src="Logo.svg" alt="Little Lemon Logo" />
+        <img src="Logo.svg" alt="Little Lemon Image" />
     </header>
     );
 }
