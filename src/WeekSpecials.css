@@ -1,0 +1,101 @@
+.week-specials {
+    text-align: center;
+    padding: 20px;
+    padding-left:20%;
+    padding-right:20%;
+    padding-bottom:5%;
+  }
+  
+  .specials-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .specials-title {
+    font-family: 'Markazi Text', serif;
+    color: #333333;
+    font-size: 48px;
+  }
+  
+  .menu-button {
+    background-color: #333333;
+    color: #EDEFEE;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Karla', sans-serif;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    border-radius: 4px;
+    height:48px;
+    font-size:18px;
+  }
+  
+  .cards-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background-color: #EDEFEE;
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .card-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .card-title {
+    color: #333333;
+    font-family: 'Karla', sans-serif;
+  }
+  
+  .card-price {
+    color: #EE9972;
+    font-family: 'Karla', sans-serif;
+    margin: 10px 0;
+  }
+  
+  .card-description {
+    color: #333333;
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .order-button {
+    background-color: #333333;
+    color: #EDEFEE;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Karla', sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    text-transform: uppercase;
+  }
+  
+  .order-button:hover {
+    background-color: #444444;
+  }
+
+  @media (max-width: 1024px) {
+    .cards-container {
+        flex-direction: column;
+    }
+      
+    .card {
+        width: 100%;
+        margin: 10px 0;
+    }
+  }

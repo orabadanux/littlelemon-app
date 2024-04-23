@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400&family=Markazi+Text:wght@500&display=swap');
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: white;
+  color: #333333;
+  font-family: 'Karla', sans-serif;
+}
+
+.navbar-logo {
+  height: 50px;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333333;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-link-active {
+  color: #555;
+  text-decoration: underline;
+}

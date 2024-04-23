@@ -1,0 +1,54 @@
+.our-story {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #495E57;
+    padding: 128px;
+    color: #EDEFEE;
+    padding-left:20%;
+    padding-right:20%;
+  }
+  
+  .story-content {
+    flex: 1;
+    margin-right:64px;
+  }
+  
+  .story-title {
+    font-family: 'Markazi Text', serif;
+    font-size: 48px;
+    color: #F4CE14;
+    margin-bottom: 1em;
+  }
+  
+  .story-text {
+    font-family: 'Karla', sans-serif;
+    margin-bottom: 1em;
+    font-size:20px;
+    line-height:32px;
+  }
+  
+  .story-image-wrapper {
+    flex: 1;
+  }
+  
+  .story-image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  @media (max-width: 768px) {
+    .our-story {
+      flex-direction: column-reverse;
+    }
+  
+    .story-content,
+    .story-image-wrapper {
+      width: 100%;
+    }
+  
+    .story-image {
+      margin-bottom: 20px;
+    }
+  }
